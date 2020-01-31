@@ -35,6 +35,8 @@ chart.x_labels = names
 chart.add('', stars)
 chart.render_to_file('python_repos.svg')
 chart.render_to_png('python_repos.png')
+
+# Text summaries.
 print("Repos returned:", len(repo_dicts))
 
 # Examine the first repo.
